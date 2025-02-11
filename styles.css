@@ -1,0 +1,168 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #ffffff;
+    background-color: #f2f2f2;
+  }
+  
+  h1, h2, h3 {
+    color: #082b59;
+    font-family: Lato, sans-serif;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    color: #d98555;
+  }
+  
+  p {
+    color: #131d26;
+  }
+  
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
+  }
+  
+  header {
+    background-color: #131d26;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    line-height: 2;
+  }
+  
+  .nav {
+    height: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+  }
+  
+  nav ul {
+    padding: 20px;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1.3rem;
+  }
+  
+  .logo {
+    flex: 0 1 auto;
+    float: left;
+    list-style-type: none;
+  }
+  
+  .logo img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+  }
+  
+  a.SF {
+    color: #d98555;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: #59331d;
+    border-radius: 10px;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    color: #f2f2f2;
+    text-decoration: none;
+    border: 3px solid #59331d;
+  }
+  
+  .middle {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .center {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .about-us {
+    width: 45%;
+    text-align: left;
+  }
+  
+  .coffee {
+    width: 45%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .coffee figure {
+    margin: 100;
+    padding: 20px;
+    background-color: #131d26;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .coffee img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  figcaption {
+    font-size: 0.9rem;
+    color: #f2f2f2;
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .icons, .footer {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    width: 100%;
+    align-items: center;
+    color: #f2f2f2;
+  }
+  
+  .foot {
+    background-color: #59331d;
+    background-image: url(https://assets.codepen.io/6306176/gulp-coffee-closeup.jpg);
+    height: 100%;
+    overflow: hidden;
+    color: #ffffff;
+  }
+  
+  .copyright {
+    padding: 0.5%;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: right;
+    width: 98%;
+    color: #f2f2f2;
+  }
+  
