@@ -166,11 +166,12 @@ figcaption {
   color: #f2f2f2;
 }
 .containero {
-display:flex;
-justify-content: space-around;
-gap:1rem;
-  flex-flow: row wrap;
-}
-.item{
-  flex-basis:32%;
-}
+  display:flex;
+  justify-content: space-around;
+  gap:1rem;
+    flex-flow: row wrap;
+  }
+  .item{
+    flex-basis:32%;
+    color:#000000;
+  }
