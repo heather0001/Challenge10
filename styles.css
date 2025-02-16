@@ -38,7 +38,7 @@ header {
   list-style-type: none;
 }
 
-.nav ul {
+nav ul {
   padding: 20px;
   margin: 0;
   list-style-type: none;
@@ -48,7 +48,7 @@ header {
   align-items: center;
 }
 
-.nav li {
+nav li {
   margin: 0 1rem 1rem 1rem;
   font-size: 1.3rem;
 }
@@ -165,6 +165,11 @@ a.SF {
   width: 98%;
   color: #f2f2f2;
 }
+
+
+.middleo{
+  margin-bottom: 2rem;
+}
 .containero {
   display:flex;
   justify-content: space-around;
@@ -173,5 +178,19 @@ a.SF {
   }
   .item{
     flex-basis:32%;
-    color:#000000;
+    color:#000000; 
+}
+
+
+@media (min-width: 750px) {
+  .containero {
+    flex-direction: row;
   }
+}
+
+@media (min-width: 1200px) {  
+  .containero {
+    flex-direction: row;
+  }
+}
+
