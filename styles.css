@@ -181,7 +181,7 @@ text-align: left;
 }
 
 .coffeee img {
-max-width:auto;
+
   height: 100%;
   border-radius: 10px;
 }
@@ -233,6 +233,7 @@ max-width:auto;
   justify-content: space-around;
   gap:1rem;
     flex-flow: row wrap;
+    flex-direction: column;
   }
   .item{
     flex-basis:32%;
@@ -252,3 +253,18 @@ max-width:auto;
   }
 }
 
+/* Tablet styles */
+@media (min-width: 750px) {
+  .container {
+    flex-direction: row; /* Align elements horizontally for tablets */
+    justify-content: space-between;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1200px) {
+  .container {
+    flex-direction: row; /* Maintain horizontal alignment */
+    justify-content: space-around;
+  }
+}
