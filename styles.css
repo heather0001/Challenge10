@@ -104,6 +104,20 @@ a.SF {
   text-align: left;
 }
 
+.our-coffee{
+  width: 105%;
+text-align: left;
+
+}
+
+.our-coffee p {
+  margin-bottom: 2.5rem;  
+}
+
+.item p {
+  width:65%;
+}
+
 .coffee {
   width: 45%;
   text-align: center;
