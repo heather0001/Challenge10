@@ -181,7 +181,7 @@ text-align: left;
 }
 
 .coffeee img {
-
+max-width:auto;
   height: 100%;
   border-radius: 10px;
 }
